@@ -19,7 +19,7 @@ Navigate to root directory in terminal and run following command.Ensure your doc
 docker compose up --build
 ```
 
-**Connect to postgres database**
+**Connect to postgres database. You can refer to this video for connecting Postgres in VScode  https://youtu.be/C0y35FpiLRA?si=3bNpJXn1M23JeqZu**
 ```sh
 username = user
 password = pass
