@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Management</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Assets</h1>
+        <button class="logout">Logout</button>
+    </header>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <a href="../profile/profile.html"><button>Profile</button></a>
+            <a href="./dashboard.html"><button>Assets</button></a>
+            <a href="./addAsset.html"><button>Add Assets</button></a>
+            <a href="/employees"><button>Employees</button></a>
+            <a href="./viewRequests.html"><button>Requests</button></a>
+        </aside>
+
+        <main>
+            <div class="search-bar">
+                <input type="text" placeholder="Type Here...">
+                <button>Search</button>
+                <button>All</button>
+                <button>Assigned</button>
+                <button>Unassigned</button>
+            </div>
+
+            <div class="asset-list">
+                <table>
+                    <thead>
+                    <tr class="asset-header">
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Assigned To</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody id="assets-table-body">
+                    <!-- Rows will be injected here by the TypeScript code -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="./scripts/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/addAsset.css">
+    <title>Add Asset</title>
+
+</head>
+<body>
+<div class="container">
+
+    <form id="addAssetForm">
+      <h2>Add Asset</h2>
+        <section class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </section>
+        <section class="form-group">
+            <label for="brand">Brand</label>
+            <input type="text" class="form-control" id="brand" name="brand" required>
+        </section>
+        <section class="form-group">
+            <label for="type">Type</label>
+            <select class="form-control" id="type" name="type" required>
+                <option value="">Select Type</option>
+                <option value="Hardware">hardware</option>
+                <option value="Software">software</option>
+            </select>
+        </section>
+        <section class="form-group">
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location" name="location" required>
+        </section>
+        <section class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="4"></textarea>
+        </section>
+        <section class="form-group col-md-6">
+            <button class="btn btn-primary" id="close">Close</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </section>
+    </form>
+</div>
+
+<script src="../scripts/addAsset.ts">
+</script>
+</body>
+</html>

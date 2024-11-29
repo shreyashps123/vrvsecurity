@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/profile.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <title>Profile</title>
+</head>
+<body>
+<main class="container mt-5">
+    <section class="profile-container">
+        <h3 class="profile-title text-center">Profile</h3>
+        <section class="card profile-card text-center">
+            <section class="card-body">
+                <img src="../img/profile-png-icon.jpg" class="rounded-circle mb-3" alt="Profile Image">
+                <h4 class="card-title">
+                    <span id="firstname"></span>
+                    <span id="lastname"></span>
+                </h4>
+
+                <section class="profile-field">
+                    <label><strong>Email</strong></label>
+                    <section class="field-content" id="email"></section>
+                </section>
+
+                <section class="profile-field">
+                    <label><strong>Phone No.</strong></label>
+                    <section class="field-content" id="phoneNo"></section>
+                </section>
+
+                <section class="profile-field">
+                    <label><strong>Location</strong></label>
+                    <section class="field-content" id="location"></section>
+                </section>
+
+                <section class="profile-field">
+                    <label><strong>Date of Joining</strong></label>
+                    <section class="field-content" id="doj"></section>
+                </section>
+            </section>
+        </section>
+        <section class="buttons">
+            <button class="btn" id="back-btn">Back</button>
+            <button class="btn" id="edit-btn">Edit</button>
+            <button class="btn" id="update-psw-btn">Update Password</button>
+        </section>
+    </section>
+</main>
+<script src="../scripts/profile.ts"></script>
+</body>
+</html>

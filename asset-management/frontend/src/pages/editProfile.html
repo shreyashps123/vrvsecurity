@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .container { max-width: 400px; margin: auto; padding: 20px; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="text"], input[type="email"] { width: 100%; padding: 8px; }
+    button { padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:disabled { background-color: #ccc; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>Edit Profile</h2>
+  <form id="editProfileForm">
+    <div class="form-group">
+      <label for="email">Email (required)</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname">
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname">
+    </div>
+    <div class="form-group">
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location">
+    </div>
+    <div class="form-group">
+      <label for="phone_number">Phone Number</label>
+      <input type="text" id="phone_number" name="phone_number">
+    </div>
+    <button type="submit">Update Profile</button>
+  </form>
+  <div id="message"></div>
+</div>
+
+
+<script src="../scripts/editProfile.ts">
+</script>
+
+
+</body>
+</html>
+
+

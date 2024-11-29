@@ -1,0 +1,24 @@
+body {
+    padding: 10% 0;
+    background-color: #747bff;
+}
+
+.container {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+form {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    text-align: center;
+}
+
+button {
+    width: 30%
+}

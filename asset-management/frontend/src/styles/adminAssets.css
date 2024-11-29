@@ -1,0 +1,16 @@
+.main-body {
+    padding: 1em;
+    overflow-x: hidden;
+}
+.unassign-btn{
+    background-color: #007bff;
+}
+.search-bar{
+    display: flex;
+    gap: 1em;
+    margin: 3em 0;
+}
+
+.search-bar button{
+    background-color: #888888;
+}

@@ -1,0 +1,18 @@
+.main-container{
+    display: flex;
+    justify-content: start;
+    gap: 3em;
+    padding: 4em;
+}
+
+#assets{
+    padding: 4em;
+}
+
+#myAssetsBtn, #availableAssetsBtn{
+    background-color: #ff7e5f;
+}
+
+#back{
+    background-color: #007bff;
+}
