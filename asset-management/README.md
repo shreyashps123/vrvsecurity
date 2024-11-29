@@ -5,7 +5,9 @@ These instructions will help you set up and run both the frontend and backend of
 Docker, Node.js and npm (Node Package Manager) should be installed on your system.
 
 ### Create .env
-Create a .env file inside backend folder and type JWT_SECRET=secret, If not already present
+Create a .env file inside backend folder and type "JWT_SECRET=secret" into it, Or just paste the below text into it
+
+### Note, .env file is needed for login, otherwise the project won't run
 ```
 JWT_SECRET=secret
 ```
